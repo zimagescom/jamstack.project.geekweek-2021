@@ -12,9 +12,19 @@
       </p>
       <button
         class="bg-white text-primary-500 font-bold rounded-md px-4 py-2 uppercase ring-4 ring-primary-300 ring-opacity-0 transform transition duration-200 hover:scale-105 hover:ring-opacity-100 focus:scale-105 focus:ring-opacity-100 focus:outline-none"
+        @click="showForm = true"
       >
         Envoyer mon score
       </button>
     </div>
+    <Modal v-if="showForm" :content="'form'" @close="showForm = false" />
   </header>
 </template>
+
+<script>
+export default {
+  data: () => ({
+    showForm: false,
+  }),
+}
+</script>
