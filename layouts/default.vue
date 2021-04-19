@@ -16,7 +16,7 @@
     <Seo
       title="GEEK WEEK 2021 x PASSAGE CORDELIERS"
       description="Cette année à vous de jouer ! Participez à notre jeu concours et tentez de gagner des bons d'achats 🎮🕹️👾"
-      image="/social.png"
+      image="social.png"
     />
   </div>
 </template>
