@@ -1,3 +1,4 @@
 <template>
-  <Game />
+  <div></div>
+  <!-- <Game /> -->
 </template>
