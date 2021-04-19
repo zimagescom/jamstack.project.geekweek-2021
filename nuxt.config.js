@@ -4,14 +4,19 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'geek-week',
+    title: 'GEEK WEEK 2021 x PASSAGE CORDELIERS',
     htmlAttrs: {
       lang: 'fr',
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          "Cette année à vous de jouer ! Participez à notre jeu concours et tentez de gagner des bons d'achats 🎮🕹️👾",
+      },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },

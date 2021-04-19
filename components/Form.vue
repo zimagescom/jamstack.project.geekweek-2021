@@ -53,22 +53,22 @@
             id="name"
             type="text"
             name="name"
+            required
             class="shadow border border-transparent form-input block rounded ring-primary-500 focus:ring-2 focus:outline-none focus:border-primary-500"
           />
         </div>
         <div>
-          <label class="text-sm ml-2" for="email" required
-            >Adresse e-mail *</label
-          >
+          <label class="text-sm ml-2" for="email">Adresse e-mail *</label>
           <input
             id="email"
             type="email"
             name="email"
+            required
             class="shadow border border-transparent form-input block rounded ring-primary-500 focus:ring-2 focus:outline-none focus:border-primary-500"
           />
         </div>
         <div>
-          <label class="text-sm ml-2" for="record" required
+          <label class="text-sm ml-2" for="record"
             >Mon super giga méga score *</label
           >
           <input
@@ -77,6 +77,7 @@
             type="number"
             min="0"
             name="record"
+            required
             class="shadow border border-transparent form-input block rounded ring-primary-500 focus:ring-2 focus:outline-none focus:border-primary-500"
           />
         </div>
