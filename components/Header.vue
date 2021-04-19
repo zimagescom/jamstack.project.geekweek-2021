@@ -15,7 +15,7 @@
         Envoyer mon score
       </button>
     </div>
-    <Modal v-if="showForm" :content="'form'" @close="showForm = false" />
+    <Modal v-show="showForm" :content="'form'" @close="showForm = false" />
   </header>
 </template>
 
